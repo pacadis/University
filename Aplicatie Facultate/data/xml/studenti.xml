@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entities>
+    <student id="11">
+        <nume>Buciu</nume>
+        <prenume>Stefan</prenume>
+        <email>bsir@yahoo.com</email>
+        <cadruDidacticLab>Klopp</cadruDidacticLab>
+        <grupa>227</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="12">
+        <nume>Cadis</nume>
+        <prenume>Paul</prenume>
+        <email>cpir@yahoo.com</email>
+        <cadruDidacticLab>Klopp</cadruDidacticLab>
+        <grupa>221</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="1">
+        <nume>Bogdan</nume>
+        <prenume>Andrei</prenume>
+        <email>bair@yahoo.com</email>
+        <cadruDidacticLab>HarryPotter</cadruDidacticLab>
+        <grupa>221</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="13">
+        <nume>A</nume>
+        <prenume>Maria</prenume>
+        <email>amir@yahoo.com</email>
+        <cadruDidacticLab>Vlad</cadruDidacticLab>
+        <grupa>223</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="2">
+        <nume>Cailean</nume>
+        <prenume>Marius</prenume>
+        <email>cmir@yahoo.com</email>
+        <cadruDidacticLab>HarryPotter</cadruDidacticLab>
+        <grupa>221</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="3">
+        <nume>Ardelean</nume>
+        <prenume>Andrei</prenume>
+        <email>aair@yahoo.com</email>
+        <cadruDidacticLab>HarryPotter</cadruDidacticLab>
+        <grupa>221</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="4">
+        <nume>Brasovean</nume>
+        <prenume>Dan</prenume>
+        <email>bdir@yahoo.com</email>
+        <cadruDidacticLab>Marcel</cadruDidacticLab>
+        <grupa>221</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="5">
+        <nume>Babenche</nume>
+        <prenume>Alex</prenume>
+        <email>bair@yahoo.com</email>
+        <cadruDidacticLab>Klopp</cadruDidacticLab>
+        <grupa>222</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="6">
+        <nume>Atanasov</nume>
+        <prenume>Razvan</prenume>
+        <email>arir@yahoo.com</email>
+        <cadruDidacticLab>Klopp</cadruDidacticLab>
+        <grupa>222</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="8">
+        <nume>Aldea</nume>
+        <prenume>Valentin</prenume>
+        <email>avir@yahoo.com</email>
+        <cadruDidacticLab>Klopp</cadruDidacticLab>
+        <grupa>222</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="9">
+        <nume>Rusu</nume>
+        <prenume>Laurentiu</prenume>
+        <email>rlir@yahoo.com</email>
+        <cadruDidacticLab>Mark</cadruDidacticLab>
+        <grupa>223</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+    <student id="10">
+        <nume>Cerbu</nume>
+        <prenume>Vlad</prenume>
+        <email>cvir@yahoo.com</email>
+        <cadruDidacticLab>Mark</cadruDidacticLab>
+        <grupa>227</grupa>
+        <nr_motivari>0</nr_motivari>
+    </student>
+</entities>

@@ -1,0 +1,15 @@
+Tema: 1
+Nota: 1.0
+Predata in saptamna: 0
+Deadline: 7
+Feedback: asdf
+Tema: 7
+Nota: 10.0
+Predata in saptamna: 0
+Deadline: 11
+Feedback: super multumesc
+Tema: 6
+Nota: 10.0
+Predata in saptamna: 0
+Deadline: 10
+Feedback: sdf

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="AplicatieFacultate_-_Lab04.main" target="1.8" />
+      <module name="AplicatieFacultate_-_Lab04.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="main" options="--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+      <module name="test" options="--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>

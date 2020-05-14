@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.skin.TableHeaderRow?>
+<?import javafx.scene.control.cell.CheckBoxTableCell?>
+<?import java.net.URL?>
+<AnchorPane prefWidth="654.0" stylesheets="@../css/mainViewStyle.css" prefHeight="981.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.GUI">
+    <children>
+        <VBox spacing="10">
+        <HBox>
+
+        <MenuBar fx:id="menuBar" >
+            <menus>
+                <Menu text="Adauga">
+                    <items>
+                        <MenuItem text="Student" onAction="#adaugaStudent"/>
+                        <MenuItem text="Tema"/>
+                        <MenuItem text="Nota"/>
+                    </items>
+                </Menu>
+                <Menu text="Sterge">
+                    <items>
+                        <MenuItem text="Student" onAction="#stergeStudent"/>
+                        <MenuItem text="Tema"/>
+                        <MenuItem text="Nota"/>
+                    </items>
+                </Menu>
+                <Menu text="Modifica" onAction="#modificaStudent">
+                    <items>
+                        <MenuItem text="Student"/>
+                        <MenuItem text="Tema"/>
+                        <MenuItem text="Nota"/>
+                    </items>
+                </Menu>
+                <Menu text="Cauta">
+                    <items>
+                        <MenuItem text="Student" onAction="#cautaStudent"/>
+                        <MenuItem text="Tema"/>
+                        <MenuItem text="Nota"/>
+                    </items>
+                </Menu>
+                <Menu text="Alte Optiuni">
+                    <items>
+                        <MenuItem text="Sorteaza crescator ID"/>
+                        <MenuItem text="Sorteaza descrescator ID"/>
+                        <MenuItem fx:id="exitMI" text="Exit" onAction="#exitShow"/>
+                        <MenuItem text="Minimize" onAction="#minimizeWindow"/>
+<!--                        <MenuItem text="FullScreen" onAction="#fullscreenWindow"/>-->
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+
+        </HBox>
+        <HBox fx:id="mainHB" >
+            <VBox prefWidth="150" alignment="CENTER" spacing="15">
+                <TextField fx:id="idTF" prefWidth="100" visible="false" promptText="ID"/>
+                <TextField fx:id="numeTF" prefWidth="100" visible="false" promptText="NUME"/>
+                <TextField fx:id="prenumeTF" prefWidth="100" visible="false" promptText="PRENUME"/>
+                <TextField fx:id="emailTF" prefWidth="100" visible="false" promptText="EMAIL"/>
+                <TextField fx:id="profTF" prefWidth="100" visible="false" promptText="PROFESOR"/>
+                <TextField fx:id="grupaTF" prefWidth="100" visible="false" promptText="GRUPA"/>
+                <Button fx:id="doITBT" prefWidth="100" text="ADD" alignment="CENTER" visible="false" onMouseClicked="#saveStudent"/>
+                <Button fx:id="undoITBT" prefWidth="100" text="DELETE" alignment="CENTER" visible="false" onMouseClicked="#deleteStudent"/>
+                <Button fx:id="changeITBT" prefWidth="100" text="UPDATE" alignment="CENTER" visible="false" onMouseClicked="#updateStudent"/>
+            </VBox>
+                <TableView fx:id="tableView" styleClass="caption" onMouseClicked="#selectingItem">
+                    <columns>
+                        <TableColumn fx:id="columnID" prefWidth="30" text="ID"/>
+                        <TableColumn fx:id="columnNume" prefWidth="150" sortable="true" sortType="ASCENDING" text="Nume" />
+                        <TableColumn fx:id="columnPrenume" prefWidth="150" text="Prenume"/>
+                        <TableColumn fx:id="columnEmail" prefWidth="150" text="Email"/>
+                        <TableColumn fx:id="columnProfesor" prefWidth="150" text="Profesor"/>
+                        <TableColumn fx:id="columnGrupa" prefWidth="50" text="Grupa"/>
+                </columns>
+                </TableView>
+            <VBox fx:id="searchVB" prefWidth="150" alignment="CENTER" onMouseClicked="#setInvisible">
+                <TextField fx:id="cautaTF" onKeyTyped="#searchStudent" promptText="SEARCH" visible="false"/>
+            </VBox>
+        </HBox>
+        </VBox>
+    </children>
+</AnchorPane>

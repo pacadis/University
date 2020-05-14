@@ -1,0 +1,20 @@
+Tema: 2
+Nota: 8.0
+Predata in saptamna: 0
+Deadline: 9
+Feedback: ok
+Tema: 1
+Nota: 1.0
+Predata in saptamna: 0
+Deadline: 7
+Feedback: ads
+Tema: 8
+Nota: 10.0
+Predata in saptamna: 0
+Deadline: 10
+Feedback: ads
+Tema: 6
+Nota: 8.0
+Predata in saptamna: 0
+Deadline: 10
+Feedback: sdfg

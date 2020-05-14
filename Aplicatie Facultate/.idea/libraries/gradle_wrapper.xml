@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="gradle-wrapper">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Desktop/MAP RESOURCES/java-json.jar.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/MAP RESOURCES/java-json.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/MAP RESOURCES/java-json.jar.zip!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="jar://$USER_HOME$/Desktop/MAP RESOURCES/java-json.jar.zip!/" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/MAP RESOURCES/java-json.jar.zip!/" />
+    </SOURCES>
+    <jarDirectory url="jar://$USER_HOME$/Desktop/MAP RESOURCES/java-json.jar.zip!/" recursive="false" />
+    <jarDirectory url="jar://$USER_HOME$/Desktop/MAP RESOURCES/java-json.jar.zip!/" recursive="false" type="SOURCES" />
+  </library>
+</component>

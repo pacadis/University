@@ -1,0 +1,4 @@
+1; MAP-lab7; 8; 9
+2; MAP-lab8; 8; 10
+3; MAP-lab6; 6; 7
+4; MAP-lab3; 3; 4

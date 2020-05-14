@@ -1,0 +1,20 @@
+Tema: 7
+Nota: 10.0
+Predata in saptamna: 0
+Deadline: 11
+Feedback: asd
+Tema: 8
+Nota: 9.0
+Predata in saptamna: 0
+Deadline: 10
+Feedback: asd
+Tema: 6
+Nota: 10.0
+Predata in saptamna: 0
+Deadline: 10
+Feedback: Laborator predat cu succes
+Tema: 6
+Nota: 10.0
+Predata in saptamna: 0
+Deadline: 10
+Feedback: Laborator predat cu succes

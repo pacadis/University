@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.XMLRepository.XMLTemaRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-27T07:25:29" hostname="DESKTOP-VMLOCAO" time="0.028">
+  <properties/>
+  <testcase name="updateFailed()" classname="repository.XMLRepository.XMLTemaRepositoryTest" time="0.007"/>
+  <testcase name="updateThrowIllegalArgumentException()" classname="repository.XMLRepository.XMLTemaRepositoryTest" time="0.006"/>
+  <testcase name="updateThrowValidationException()" classname="repository.XMLRepository.XMLTemaRepositoryTest" time="0.006"/>
+  <testcase name="updateSuccessfull()" classname="repository.XMLRepository.XMLTemaRepositoryTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

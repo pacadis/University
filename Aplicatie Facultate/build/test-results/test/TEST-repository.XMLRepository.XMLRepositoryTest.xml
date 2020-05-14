@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.XMLRepository.XMLRepositoryTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-11-27T07:25:29" hostname="DESKTOP-VMLOCAO" time="0.128">
+  <properties/>
+  <testcase name="saveThrowIllegalArgumentException()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.009"/>
+  <testcase name="updateFailed()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.008"/>
+  <testcase name="updateThrowIllegalArgumentException()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.008"/>
+  <testcase name="deleteSuccessfull()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.01"/>
+  <testcase name="deleteFailed()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.009"/>
+  <testcase name="findOneSuccessfull()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.007"/>
+  <testcase name="findAll()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.006"/>
+  <testcase name="findOneThrowException()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.008"/>
+  <testcase name="saveSuccessfull()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.01"/>
+  <testcase name="saveThrowValidationException()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.009"/>
+  <testcase name="saveFailed()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.006"/>
+  <testcase name="deleteThrowIllegalArgumentException()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.006"/>
+  <testcase name="findOneFailed()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.007"/>
+  <testcase name="updateThrowValidationException()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.006"/>
+  <testcase name="updateSuccessfull()" classname="repository.XMLRepository.XMLRepositoryTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

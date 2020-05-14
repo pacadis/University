@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx" prefWidth="250" stylesheets="@../css/mainViewStyle.css" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="fxml.CheckNotaGUI">
+    <children>
+        <HBox alignment="CENTER">
+            <VBox spacing="15" alignment="BASELINE_CENTER">
+                <TextField fx:id="studentId" editable="false" prefWidth="250"/>
+                <TextField fx:id="temaId" editable="false" prefWidth="250"/>
+                <TextField fx:id="data" editable="false" prefWidth="250"/>
+                <TextField fx:id="nota" editable="false" prefWidth="250"/>
+                <TextField fx:id="prof" editable="false" prefWidth="250"/>
+                <TextField fx:id="motivari" editable="false" prefWidth="250"/>
+                <TextField fx:id="fb" editable="false" prefWidth="250"/>
+                <HBox spacing="15" alignment="CENTER">
+                    <Button fx:id="addBtn" text="ADAUGA" onMouseClicked="#saveNota"/>
+                    <Button fx:id="closeBtn" text="INCHIDE" onMouseClicked="#closeWindow"/>
+                </HBox>
+            </VBox>
+        </HBox>
+    </children>
+</AnchorPane>
