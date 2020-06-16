@@ -1,0 +1,25 @@
+#myDiv {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  align-items: center;
+  display: inline-block;
+}
+
+label {
+	width: 100px;
+	display: inline-block;
+}
+
+button {
+	position: absolute;
+	left: 40%;
+}
+
+input {
+	width: 160px;
+}
